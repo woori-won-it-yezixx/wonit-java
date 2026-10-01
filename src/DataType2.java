@@ -58,7 +58,7 @@ public class DataType2 {
         System.out.println(list2);
         // list1.add("가위");
 
-        // Create-add / Read-get / Update / Delete
+        // Create-add / Read-get / Update-set / Delete-remove
         // ArrayList<자료형> 변수명 = new ArrayList<자료형>();
         //          <Generic-자료형을고정해주는장치>
         // list3를 만듭니다. String만 들어가는 ArrayList입니다.
