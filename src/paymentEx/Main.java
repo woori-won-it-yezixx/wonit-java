@@ -47,5 +47,17 @@ public class Main {
         if (naverPay instanceof Refundable) {
             ((Refundable) naverPay).refund();
         }
+
+        ((Refundable) creditCard).refund();
+
+        EmptyOne emptyOne = new EmptyOne();
+
+        if (emptyOne instanceof Refundable) {
+            ((Refundable) naverPay).refund();
+        } else {
+            System.out.println("refund 메서드가 없음. 모든 자료형은 Object의 자식클래스이므로 instanceof로 비교함");
+        }
+        // 클래스에 아무것도 선언하거나 정의한 게 없어도 몇개 들어있는 메서드
+        // 모든 class는 Object 라는 최상위 클래스를 상속받아서 만들어지기 때문
     }
 }
